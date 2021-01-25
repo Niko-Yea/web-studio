@@ -1,0 +1,54 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $main-bg;
+    border-bottom: 1px solid #ececec;
+    z-index: 999;
+
+    & .container{
+        @media screen and (max-width: 767px){
+            position: relative;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            // border-bottom: 1px solid #ececec;
+        }
+
+        @media screen and (min-width: 768px){
+            display: flex;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 1200px){
+            & .logo{
+                @include font-config(700, 26px, 1.19, 0.03em);
+            }
+        }
+    }
+}
+
+.select-page{
+    display: inline-block;
+    position: relative;
+    color: $accent;
+
+    &::after{
+        content: "";
+        position: absolute;
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        background-color: $accent;
+        
+        @media screen and (max-width: 767px){
+            bottom: -8px;
+        }
+
+        @media screen and (min-width: 768px){
+            bottom: 0;
+        }
+    }
+}
+
+
