@@ -6,13 +6,13 @@
         @media screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 96dpi), screen and (min-resolution: 1dppx){
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                         rgba(47, 48, 58, 0.4)),
-                                                        url(../../img/mobile/hero/hero.jpg);
+                                                        url(../img/mobile/hero/hero.jpg);
         }
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                             rgba(47, 48, 58, 0.4)),
-                                                            url(../../img/mobile/hero/hero@2x.jpg);
+                                                            url(../img/mobile/hero/hero@2x.jpg);
         }
     }
 
@@ -20,26 +20,26 @@
         @media screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 96dpi), screen and (min-resolution: 1dppx){
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                         rgba(47, 48, 58, 0.4)),
-                                                        url(../../img/tablet/hero/hero.jpg);
+                                                        url(../img/tablet/hero/hero.jpg);
         }
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                             rgba(47, 48, 58, 0.4)),
-                                                            url(../../img/tablet/hero/hero@2x.jpg);
+                                                            url(../img/tablet/hero/hero@2x.jpg);
         }
 
         @media screen and (min-width: 1200px){
             @media screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 96dpi), screen and (min-resolution: 1dppx){
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                             rgba(47, 48, 58, 0.4)),
-                                                            url(../../img/desktop/hero/hero.jpg);
+                                                            url(../img/desktop/hero/hero.jpg);
             }
 
             @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
                     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
                                                                 rgba(47, 48, 58, 0.4)),
-                                                                url(../../img/desktop/hero/hero@2x.jpg);
+                                                                url(../img/desktop/hero/hero@2x.jpg);
             }
         }
     }
