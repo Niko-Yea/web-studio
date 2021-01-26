@@ -2,12 +2,23 @@
     & .container{
         padding-top: 60px;
         padding-bottom: 60px;
+
+        @media screen and (min-width: 1200px){
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
     }
 }
 
 .clients .title{
     text-align: center;
-    @include font-config(700, 28px, 1.17, 0.03em);
+    @media screen and (max-width: 767px){
+        @include font-config(700, 28px, 1.17, 0.03em);
+    }
+
+    @media screen and (min-width: 1200px){
+        @include font-config(700, 36px, 1.16, 0.03em);
+    }
 }
 
 .clients-list{
@@ -17,6 +28,7 @@
 
     @media screen and (min-width: 1200px){
         flex-wrap: nowrap;
+        margin-top: 50px;
     }
 }
 

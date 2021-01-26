@@ -83,6 +83,9 @@
         & .navlist{
             display: flex;
             @include font-config(500, 14px, 1.14, 0.02em);
+        }
+
+        & .nav{
             margin-left: 88px;
         }
 
@@ -95,6 +98,9 @@
     @media screen and (min-width: 1200px){
         & .navlist{
             @include font-config(500, 14px, 1.14, 0.02em);
+        }
+
+        & .nav{
             margin-left: 93px;
         }
 
