@@ -1028,6 +1028,12 @@ li {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio-list-link .card-text {
+    padding: 63px 24px;
+  }
+}
+
 .portfolio-list-link:hover .card-text {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);

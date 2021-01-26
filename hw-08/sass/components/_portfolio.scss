@@ -107,6 +107,10 @@
             padding: 49px 24px;
         }
 
+        @media screen and (min-width: 1200px){
+            padding: 63px 24px;;
+        }
+
         @include font-config(400, 18px, 1.55, 0.03em);
 
         transition: transform 250ms $cubic-function;
