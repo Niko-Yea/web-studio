@@ -8,15 +8,21 @@
 
     & .container{
         @media screen and (max-width: 767px){
-            // position: relative;
             padding-top: 16px;
             padding-bottom: 16px;
-            // border-bottom: 1px solid #ececec;
+
+            .for-button{
+                position: relative;
+            }
         }
 
         @media screen and (min-width: 768px){
             display: flex;
             align-items: center;
+
+            .for-button{
+                display: none;
+            }
         }
 
         @media screen and (min-width: 1200px){
